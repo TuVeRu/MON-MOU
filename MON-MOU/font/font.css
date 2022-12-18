@@ -1,0 +1,12 @@
+
+
+@font-face {
+    font-family: 'Champagne & Limousines';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../font/ChampagneLimousines.woff2') format('woff2'),
+        url('../ChampagneLimousines.woff') format('woff');
+    font-display: swap;
+}
+
+
