@@ -4,12 +4,18 @@
   box-sizing: border-box;
   font-family: "ChampagneLimousines";
 }
-.none {
+.none{
   display: none;
 }
+body{
+  width: 1600px;
+  margin: auto;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
+ 
 }
 li {
   list-style: none;
@@ -29,7 +35,6 @@ a {
 
 .nav_list {
   display: flex;
-  padding-left: 0;
   justify-content: space-between;
   font-weight: 400;
   font-size: 16px;
@@ -42,7 +47,7 @@ a {
   margin-left: 25px;
 }
 
-.seaction_bunner {
+.section_bunner {
   width: 100%;
   height: 825px;
   background-image: url(../img/section/section-1/basic.jpg);
@@ -55,7 +60,7 @@ a {
   font-size: 55px;
   padding-bottom: 50px;
 }
-.seaction_bunner p {
+.section_bunner p {
   font-size: 29px;
   padding-bottom: 50px;
 }
@@ -70,7 +75,7 @@ a {
 }
 .section_line {
   height: 70px;
-  background: #2d3538;
+  background: #2f2e2e;
   margin-bottom: 100px;
 }
 .section_line p {
@@ -82,6 +87,7 @@ a {
 }
 .foto_1 {
   position: relative;
+  opacity: 0.7;
 }
 .foto_1 p {
   position: absolute;
@@ -90,4 +96,209 @@ a {
   font-size: 35px;
   text-align: center;
   color: #efd2c2;
+}
+.first2{
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  margin-bottom: 30px;
+}
+.bg_imj{
+  display: flex;
+  justify-content: center;
+  background-color:  #E6CEC2;;
+  margin-bottom: 140px;
+}
+.top{
+  
+ margin-right: 100px;
+ margin-left: 100px;
+ margin-bottom: 80px;
+
+}
+.top_titel{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+.top_p{
+  font-size: 40px;
+  text-align: center;
+ padding-bottom: 36px;
+}
+ .top_sale{
+  display: flex;
+  justify-content: space-between;
+}
+.top_sale p{
+  font-size: 16px;
+  
+}
+span{
+  font-size: 20px;
+}
+ 
+ 
+
+.top_product{
+  display: flex;
+  justify-content: space-between;
+  width: 1240px;
+}
+
+.foto_7{
+  position: relative;
+}
+.ponent{
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.subscription{
+  
+  width: 100%;
+  height: 316px;
+  background: #EFD2C2;
+  opacity: 0.6;
+  margin-bottom: 100px;
+}
+.subscription_text{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-top: 77px;
+}
+.subscription_text p{
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+ padding-right: 256px;
+}
+.subscription_btn button{
+  font-size: 25px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  padding: 11px 64px;
+}
+.fifth{
+  width:1400px;
+  margin-bottom: 100px;
+}
+.about_us{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 67px;
+}
+.about_us p{
+  font-size: 40px;
+ 
+ letter-spacing: 0.08em;
+}
+.wrapper{
+  display: flex;
+  /* justify-content: space-between; */
+
+}
+.mag_logo{
+  padding-top: 150px;
+  padding-left: 32px;
+  padding-bottom: 62px;
+}
+.about_brend p{
+ font-size: 20px;
+ line-height: 150%;
+ margin-bottom: 120px;
+ padding-left: 133px;
+}
+.beauty_logo{
+ 
+  padding-left: 30px;
+  padding-bottom: 60px;
+}
+.sixth{
+ margin-bottom: 100px;
+
+}
+
+.sixth_menu{
+  
+  height: 100px;
+ 
+  margin-top: 0;
+
+}
+
+.sixth_menu_span{
+display: flex;
+justify-content: space-between;
+font-size:40px;
+letter-spacing: 0.08em;
+
+}
+
+.face_menu_1{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 18px;
+}
+.face_2_2{
+  display: block;
+}
+.face_2 i{
+  position: absolute;
+  color:whitesmoke;
+  margin-top: -150px;
+  margin-left: 150px;
+}
+.face_menu_2{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+} 
+.footer{
+  
+  height: 162px;
+  margin-bottom: 100px;
+  background: #E5E5E5;
+ 
+}
+.footer_row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_blok_1 {
+  
+  display: flex;
+  flex-flow: column;
+  height: 162px ;
+  
+}
+.footer_blok_1 a{
+  padding-bottom: 30px;
+  color: #2D3538;
+}
+.footer_blok_2{
+  display: flex;
+  flex-flow: column;
+  padding-top: 0px;
+}
+.footer_blok_2 a{
+  padding-bottom: 30px;
+  color: #2D3538;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #2D3538;
+}
+.footer_blok-3 {
+  display:inline-block;
+  align-items: center;
+
+}
+.pay {
+padding-right: 90px;
+}
+.viza {
+  padding-right: 90px;
 }
