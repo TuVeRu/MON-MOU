@@ -10,6 +10,7 @@
 body{
   width: 1600px;
   margin: auto;
+  background: #E5E5E5;
 }
 
 .container {
@@ -259,7 +260,7 @@ letter-spacing: 0.08em;
   
   height: 162px;
   margin-bottom: 100px;
-  background: #E5E5E5;
+ 
  
 }
 .footer_row{
@@ -302,3 +303,198 @@ padding-right: 90px;
 .viza {
   padding-right: 90px;
 }
+.section_about_us_1{
+ position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+
+
+.about_us_subtitel {
+  
+  width: 737px;
+  height: 650px;
+  margin-top: 90px;
+ 
+  
+}
+  
+.about_us_subtitel p{
+  position: absolute;
+  padding: 61px 50px 61px 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  left: 713px;
+  background-color: #fff ;
+  
+}
+.section_about_us_2{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  
+}
+.about_us_2_subtitel{
+  width: 657px;
+  height: 528px;
+  margin-top: 90px;
+ 
+}
+.about_us_2_subtitel p{
+  position: absolute;
+  padding: 61px 30px 61px 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  right: 712px;
+  background-color: #fff ;
+}
+
+  /* shop_1 полотенец */
+ .shop_line{
+  margin-bottom: 100px;
+  
+ }
+ .shop_line_1{
+  padding-right: 43px;
+ }
+ .shop_line_1,.shop_line_2,.shop_line_3{
+  display: flex;
+  align-items: center;
+ }
+ .hr_1_towel{
+  width: 180px;
+  height: 5px;
+  background: #EFD2C2;
+  margin-right: 20px;
+ }
+ .shop_line_1 p{
+  font-size: 20px;
+  line-height: 1.15 ;
+ }
+
+.hr_2_towel,.hr_3_trowel{
+  width: 40px;
+  height: 5px;
+  background:#EFD2C2;
+  margin-right: 160px;
+ 
+}
+
+.shop_towel{
+ padding-left: 40px;
+}
+ .shop_towel img{
+  width: 744.91px;
+  height: 1118px;
+
+ }
+ .shop_towel_1{
+  margin-right: 30px;
+ }
+ .shop_towel_price{
+ display: flex;
+ flex-flow: column;
+ align-items: center;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ 
+ }
+ .shop_towel_titel{
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+ }
+ .shop_towel_titel_price{
+  font-size: 25px;
+  line-height: 29px;
+ }
+ .shop_towel_3{
+ display: flex;
+ justify-content: center;
+ 
+ }
+ .shop_towel_price{
+  margin-bottom: 150px;
+ }
+
+ /* shop_2 */
+
+ .hr_1_pillowcases,.hr_3_pillowcases{
+  width: 40px;
+  height: 5px;
+  background:#EFD2C2;
+  margin-right: 160px;
+ }
+ .hr_2_pillowcases{
+  width: 180px;
+  height: 5px;
+  background: #EFD2C2;
+  margin-right: 20px;
+ }
+ .pillowcase{
+ display: flex;
+flex-flow: column;
+
+ }
+ .banner_pillowcases{
+  display: flex;
+  margin: 0px 200px;
+ }
+ .banner_pillowcases_line{
+  padding: 30px;
+  padding-left: 200px;
+  padding-bottom: 10px;
+  margin-bottom: 150px;
+ }
+ .banner_pillowcases_line_text{
+  font-size: 20px;
+  line-height: 1.15;
+ }
+.banner_pillowcases_line_price{
+  font-size: 25px;
+  line-height: 1.16;
+}
+/* /shop_2 */
+
+/* shop_3 */
+
+.hr_1_accessories,.hr_2_accessories{
+  width: 40px;
+  height: 5px;
+  background:#EFD2C2;
+  margin-right: 160px;
+}
+.hr_3_accessories{
+  width: 180px;
+  height: 5px;
+  background: #EFD2C2;
+  margin-right: 20px;
+}
+  
+.banner_accessories {
+}
+.banner_accessories_1, .banner_accessories_2 {
+  display: flex;
+  flex-flow: wrap;
+ justify-content: space-between;
+ margin-bottom: 40px;
+
+}
+.acce_1 {
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+ 
+
