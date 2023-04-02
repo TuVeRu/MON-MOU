@@ -10,7 +10,7 @@
 body{
   width: 1600px;
   margin: auto;
-  background: #E5E5E5;
+
 }
 
 .container {
@@ -152,9 +152,20 @@ span{
 }
 .ponent{
   position: absolute;
-  padding-top: 10px;
-  padding-left: 10px;
+  width: 153px;
+  height: 32px;
+  margin-left: 25px;
+  margin-top: 25px;
+  background-color: #000000;
 }
+.ponent p{
+  padding:10px 37px ;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0.07em;
+  color: #EFD2C2;
+}
+
 .subscription{
   
   width: 100%;
@@ -355,17 +366,17 @@ padding-right: 90px;
   background-color: #fff ;
 }
 
-  /* shop_1 полотенец */
+  /* shop_1  */
+
  .shop_line{
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   
  }
- .shop_line_1{
-  padding-right: 43px;
- }
+ 
  .shop_line_1,.shop_line_2,.shop_line_3{
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
  }
  .hr_1_towel{
   width: 180px;
@@ -385,43 +396,64 @@ padding-right: 90px;
   margin-right: 160px;
  
 }
-
 .shop_towel{
- padding-left: 40px;
+ display: flex;
+ justify-content:space-between;
+ margin-right: 40px;
+ margin-left: 40px;
+
 }
- .shop_towel img{
-  width: 744.91px;
+.shop_towel_wrap{
+  position: relative;
+}
+.towel_patent{
+  position: absolute;
+  width: 198px;
+  height: 43px;
+  margin-top: 25px;
+  margin-left: 25px;
+  background: black;
+}
+.towel_patent p{
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  color: #EFD2C2;
+  padding: 12px 24px;
+}
+
+.shop_towel img{
+  width: 744px;
   height: 1118px;
 
  }
- .shop_towel_1{
-  margin-right: 30px;
- }
- .shop_towel_price{
+
+.shop_towel_info{
  display: flex;
  flex-flow: column;
  align-items: center;
  margin-top: 50px;
- margin-bottom: 50px;
- 
+ margin-bottom: 40px;
+ row-gap: 15px;
  }
- .shop_towel_titel{
+ .shop_towel_info p{
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
  }
- .shop_towel_titel_price{
+ .shop_towel__price{
   font-size: 25px;
-  line-height: 29px;
+  line-height: 1.16;
  }
  .shop_towel_3{
  display: flex;
  justify-content: center;
+ }
+ .info_1{
+  margin-bottom: 110px;
+ }
  
- }
- .shop_towel_price{
-  margin-bottom: 150px;
- }
+/* /shop_1 */
 
  /* shop_2 */
 
@@ -476,9 +508,7 @@ flex-flow: column;
   background: #EFD2C2;
   margin-right: 20px;
 }
-  
-.banner_accessories {
-}
+
 .banner_accessories_1, .banner_accessories_2 {
   display: flex;
   flex-flow: wrap;
@@ -490,11 +520,572 @@ flex-flow: column;
   margin-bottom: 40px;
 }
 
+/* /shop_3 */
 
+/* shop_1_1 */
+.main_wrap{
+  display: flex;
+  gap: 30px;
+}
+.card{
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 460px;
+  width: 785px;
+  height: 2912px;
+}
+.card > img{
+  width: 745px;
+}
+.towel_patent>img{
+  height: 1019px;
+}
+.work{
+  height: 1023px;
+  padding-bottom: 0;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.work_text_1{
+  height: 108px;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  margin-bottom: 6px;
 
+}
+.work_text_2{
+  font-size: 20px;
+  line-height: 150%;
+  margin-top: 39px;
+  margin-bottom: 18px;
+}
+.work_stock{
+  width: 100px;
+  height: 34px;
+  border: 1px solid #EFD2C2;
+  margin-bottom: 64px;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+}
+.work_button{
+  padding-top: 14px;
+  margin-bottom: 26px;
+  width: 583px;
+  height: 57px;
+  background: #EFD2C2;
+  font-size: 25px;
+  line-height: 1.16;
+  text-align: center;
+}
+.work>span{
+  font-size: 25px;
+  line-height: 1.16;
+}
+.work_coose{
+  margin-top: 48px;
+}
+.work_img{
+  display: flex;
+  margin-bottom: 57px;
+  
+}
+.white{
+  width: 132px;
+}
+.black{
+  width: 132px;
+}
+.work_form{
+ height: 173px;
+ }
 
+.work_form p{
+  font-size: 20px;
+  line-height: 150%;
+}
+.pluse{
+  display: flex;
+  justify-content: space-between;
+}
+.pluse>i{
+  font-size:  20px;;
+  opacity: 0.8;
+}
+hr{
+  margin-top: 10px;
+  margin-bottom: 25px;
+  opacity: 0.5;
+}
+/* shop/_1_1 */
 
+/* shop_1_2 */
 
+.choice{
+  display: flex;
+  margin-bottom: 150px;
+}
+.choice>img{
+  width: 785px;
+  height: 1024px;
+}
+.choice_prod {
+  position: absolute;
+  right: 200px;
+  top: 0;
+  width: 801px;
+  height: 1227px;
+  background: rgba(239, 210, 194, 0.9);
 
+}
+.choice_prod hr{
+  width: 475px;
+ height: 1px;
+ background: #2D3538;
+ opacity: 0.6;
+ border: 1px ;
+ margin-left: 81px;
+}
+.choice_prod>i{
+  width: 15px;
+  height: 15px;
+  padding: 40px 38.5px 1074.5px 748px;
+}
+.choice_prod_container{
+  position: absolute;
+  width: 556px;
+  right: 200px;
+  top: 90px;
+  margin-bottom: 50px;
+}
+.choice_prod p{
+  font-size: 20px;
+  line-height: 160%;
+}
+.choice_prod_1>img, .choice_prod_2>img{
+  width: 124px;
+  height: 124px;
+}
+.choice_prod_1,.choice_prod_2{
+display: flex;
+margin-bottom: 35px;
+gap: 30px;
+
+}
+.choice_prod_2{
+  margin-top: 15px;
+}
+.input_number{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:  103px;
+  height: 36px;
+  border: 1px solid #2D3538;;
+}
+
+.input_number>button{
+  border: none;
+  background: rgba(239, 210, 194, 0.9);
+}
+ .input_number  input{
+  
+  width: 34px;
+  height: 34px;
+  border: none;
+  background: rgba(239, 210, 194, 0.9);
+ }
+ input::placeholder{
+  padding-left: 12px;
+ }
+
+.checkout{
+  width: 551px;
+  margin-top: 494px;
+}
+.checkout>.block_1{
+  width: 286px;
+  height: 58px;
+  font-size: 36px;
+  line-height: 160%;
+}
+.or{
+  display: flex;
+ justify-content: space-between;
+ align-items: flex-end;
+}
+
+.block{
+  display: flex;
+  margin-bottom: 20px;
+}
+.block_1 {
+  display: block;
+  width: 286px;
+  height: 58px;
+  font-size: 36px;
+  line-height: 160%;
+}
+.block_2{
+  display: flex;
+  justify-content: flex-end;
+  width: 286px;
+  height: 58px;
+  font-size: 36px;
+  line-height: 160%; 
+
+} 
+ .block_3{
+   height: 57px;
+   padding-top: 14px;
+   background-color: #2D3538;
+   font-size: 25px;
+   line-height: 29px;
+   text-align: center;
+  
  
+}
+.block_3 a{
+  color: #EFD2C2;
+}
+/* /shop_1_2 */
+
+/* введение данных */
+
+
+.main{
+display: flex;
+justify-content:space-between;
+
+margin-bottom: 155px;
+}
+.main_card_1 {
+  width: 800px;
+  height: 1103px;
+ 
+  
+}
+.blok_logo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+
+.container_left{
+  margin: 60px 15px 107px 200px;
+  
+}
+  
+
+.name_surname{
+  display: flex;
+  justify-content: space-between;
+ 
+ margin-top: 20px;;
+  
+
+}
+.name_surname input{
+  width: 278px;
+  height: 60px;
+  border: 1px solid #2D3538;
+  margin-bottom: 30px;
+  
+}
+.ather_data input{
+  
+  width: 584px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+.branch{
+  width: 270px;
+  height: 60px;
+  margin-bottom: 60px;
+}
+.texteara{
+  width: 585px;
+  height: 190px;
+  border: 1px solid #2D3538;
+}
+.button_data{
+  
+  width: 380px;
+ height: 57px;
+ margin-left: 205px;
+ margin-top: 102px;
+ background: #2D3538;
+ transition: 2s ease;
+
+}
+
+
+.button_data a{
+  font-size: 25px;
+  line-height: 29px;
+  color: #EFD2C2;
+  
+}
+.button_data:hover{
+  background-color: #4a77d8d4;
+ 
+}
+
+.main_card_2{
+  width: 786px;
+  height: 1103px;
+  background:#E6CEC2
+}
+ 
+  .container_right{
+  margin-top: 80px;
+  margin-left: 30px;
+}
+.main_card_2>i{
+  width: 15px;
+  height: 15px;
+  padding: 40px 38.5px 1074.5px 748px;
+}
+.block_first>img{
+ 
+  width: 124px;
+  height: 124px;
+}
+.block_first{
+  position: relative;
+  display: flex;
+  gap: 30px; ;
+  margin-bottom: 35px;
+}
+.circle{
+  position: absolute;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background: rgba(239, 210, 194, 0.8);
+  left: 100px;
+  top: -15px;
+}
+.circle>input{
+  width: 20px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 4px;
+  border: #000000;
+  background: rgba(239, 210, 194, 0.8);
+  font-size: 20px;
+  line-height: 160%;
+  color: #000000;
+
+}
+.block_first,.block_too p{
+  font-size: 20px;
+  line-height: 160%;
+  
+}
+.main_card_2 hr{
+  width: 475px;
+  height: 1px;
+  background: #2D3538;
+  opacity: 0.6;
+  border: 1px ;
+  margin-left: 81px;
+  margin-bottom: 100px;
+}
+.block_too{
+  position: relative;
+  display: flex;
+  gap: 30px; ;
+  margin-bottom: 35px;
+}
+.block_too img{
+  width: 124px;
+  height: 124px;
+ 
+}
+.data_block_3{
+ 
+  width: 294px;
+  height: 29px;
+  font-size: 25px;
+  color: #EFD2C2;
+  line-height: 29px;
+  text-align: center;
+
+  background-color: #000000;
+  margin: 350px 200px 64px ;
+}
+
+/* введение данных */
+
+/* оплата_1 */
+.main_pay_1{
+  width: 800px;
+  height: 1103px;
+
+}
+.container_pay_1{
+  margin: 60px 15px 0 200px;
+
+
+}
+.main_pay_1 p{
+  font-size: 20px;
+  line-height: 160%;
+  margin-bottom: 145px;
+
+}
+.main_pay_1 input{
+  width: 584px;
+  height: 60px;
+}
+.payment_card{
+  position: relative;
+  margin-bottom: 100px;
+}
+.payment_card ::placeholder{
+  font-size: 20px;
+  line-height: 160%;
+}
+.choice_card{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  z-index: 1;
+  left: 323px;
+ top: 8px;
+ 
+}
+#pay{
+  width: 91px;
+  height: 35px;
+  margin-bottom: 505px;
+}
+.active_button{
+  display: flex;
+  align-items: center;
+  
+
+}
+.active_button  img{
+width: 20px;
+height: 10px;
+margin-right: 10px;
+}
+.active_button span{
+  font-size: 20px;
+  line-height: 160%;
+  color: #2D3538;
+  opacity: 0.6;
+  margin-right: 135px;
+  
+}
+
+ .active_button button{
+  width: 380px;
+  height: 57px;
+  background: #2D3538;
+  font-size: 25px;
+  line-height: 29px;
+  color: #EFD2C2;
+ 
+}
+.active_button button:hover{
+  background-color: hwb(212 33% 8%);
+}
+/* /оплата_1 */
+
+
+/* оплата_2 */
+/* shop_1_5 */
+.pay_2{
+  width: 585px;
+  height: 287px;
+  border: 1px solid #2D3538;
+  
+}
+
+#numberGard{
+  margin-top: 44px;
+  margin-right: 56px;
+  margin-left: 57px;
+  width: 472px;
+  height: 46px;
+  opacity: 0.7;
+  border: 1px solid #2D3538;
+}
+.end_pay{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 57px;
+  margin-top: 35px;
+  width: 472px;
+  height: 46px;
+}
+#date_MMPP, #date_CVV{
+  text-align: center;
+  width: 215px;
+  height: 46px;
+  opacity: 0.7;
+  border: 1px solid #2D3538;
+}
+.end_button{
+  margin-top: -170px;
+}
+/* оплата_2 */
+/* shop_1_5 */
+
+/* Подтверждение */
+.container_confirmation{
+  margin: 60px 550px;
+  
+}
+#end{
+ margin-left: 136px;
+ margin-bottom: 326px;
+
+}
+.container_confirmation h1{
+  text-align: center;
+  font-size: 55px;
+  line-height: 160%;
+  margin-bottom: 50px;
+}
+.container_confirmation h2{
+  font-size: 36px;
+  line-height: 160%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-bottom: 325px;  
+}
+.container_confirmation button{
+  
+  width: 380px;
+  height: 57px;
+  background: #2D3538;
+  font-size: 25px;
+  line-height: 29px;
+  color: #EFD2C2;
+  margin-left: 70px;
+  margin-bottom: 60px;
+}
+
+
+  
+    
+    
+
+
+
+
+
+
+
+  
+
 
